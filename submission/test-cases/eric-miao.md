@@ -59,7 +59,7 @@ HOW TO USE THIS FILE
 **Written by:** Eric
 **Title:** The system uses postgresql
 **Traces to:** store.js
-**Test type:** (Unit / Integration / System / Acceptance / Boundary Value / Negative / Security)
+**Test type:** Integration
 **Preconditions:** Set up the app
 **Test data:** N/A
 
@@ -72,6 +72,27 @@ HOW TO USE THIS FILE
 **Status:** Fail
 **Severity:** Minor
 **V or V:** Validation
+
+---
+
+**Test ID:**
+**Written by:**
+**Title:**
+**Traces to:**
+**Test type:** (Unit / Integration / System / Acceptance / Boundary Value / Negative / Security)
+**Preconditions:**
+**Test data:**
+
+**Steps:**
+1.
+2.
+3.
+
+**Expected result:**
+**Actual result:**
+**Status:** (Pass / Fail)
+**Severity:** (Critical / Major / Minor, Fail only)
+**V or V:** (Verification / Validation, Fail only)
 
 ---
 
