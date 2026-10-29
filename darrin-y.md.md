@@ -92,4 +92,23 @@ HOW TO USE THIS FILE
 **Severity:** Major
 **V or V:** Validation
 
+**Test ID:** DY-14
+**Written by:** Darrin Yun
+**Title:** LeaderboardFailingToUpdate
+**Traces to:** app.js line 214 to 223
+**Test type:** System
+**Preconditions:** Votes on variety of costumes
+**Test data:** 10 votes on a new costume
+
+**Steps:**
+1. Vote for a costume to update rankings
+2. Go to leaderboard
+3. 
+
+**Expected result:** 10 at top of leaderboard
+**Actual result:** 5 is at #1
+**Status:** Fail
+**Severity:** Major
+**V or V:** Verification
+
 ---
