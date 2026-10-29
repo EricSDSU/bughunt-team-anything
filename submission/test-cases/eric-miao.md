@@ -1,6 +1,6 @@
-# Test Cases: [Your First Name Last Initial]
+# Test Cases: Eric M
 
-**Team number:** [XX]
+**Team number:** [anything]
 
 <!--
 HOW TO USE THIS FILE
@@ -11,6 +11,27 @@ HOW TO USE THIS FILE
 5. Test IDs: use your initials plus a number, like  MG-01, MG-02. This keeps IDs unique across your team.
 6. See docs/TESTING_FIELD_GUIDE.md for the sample test case TC-00.
 -->
+
+---
+
+**Test ID:** EM-1
+**Written by:** Eric
+**Title:** Only the owner of a costume can delete it.
+**Traces to:** app.js:function deleteCostume(id)
+**Test type:** Acceptance
+**Preconditions:** Deletion requires the requester be the owner of the costume.
+**Test data:** User A: has costume
+
+**Steps:**
+1. Create a new user user b
+2. Log in as user b
+3. Attempt to delete user a's costume
+
+**Expected result:** user b can't delete the costume
+**Actual result:** user b can delete the costume
+**Status:** fail
+**Severity:** Major
+**V or V:** Verification
 
 ---
 
@@ -39,7 +60,7 @@ HOW TO USE THIS FILE
 **Written by:**
 **Title:**
 **Traces to:**
-**Test type:**
+**Test type:** (Unit / Integration / System / Acceptance / Boundary Value / Negative / Security)
 **Preconditions:**
 **Test data:**
 
@@ -50,8 +71,27 @@ HOW TO USE THIS FILE
 
 **Expected result:**
 **Actual result:**
-**Status:**
-**Severity:**
-**V or V:**
+**Status:** (Pass / Fail)
+**Severity:** (Critical / Major / Minor, Fail only)
+**V or V:** (Verification / Validation, Fail only)
 
 ---
+
+**Test ID:**
+**Written by:**
+**Title:**
+**Traces to:**
+**Test type:** (Unit / Integration / System / Acceptance / Boundary Value / Negative / Security)
+**Preconditions:**
+**Test data:**
+
+**Steps:**
+1.
+2.
+3.
+
+**Expected result:**
+**Actual result:**
+**Status:** (Pass / Fail)
+**Severity:** (Critical / Major / Minor, Fail only)
+**V or V:** (Verification / Validation, Fail only)
