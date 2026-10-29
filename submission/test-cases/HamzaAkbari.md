@@ -22,16 +22,16 @@ Test type: (Negative)
 Preconditions: User is on registration page and the username is not already registered
 Test data: Username: TestUser (8 characters), Password: Test (4 characters), Expected minimum password length: 4 characters
 
-**Steps:**
+Steps:
 1. Navigate to the registration page
 2. Enter a unique username and a password containing only 4 characters.
 3. Submit the registration form and observe the system's response.
 
-**Expected result:** System needs a minimum of 8 characters for password and username to be accepted
-**Actual result:** The system allows a minimum of 4 characters for a password and username to be accepted 
-**Status:** (Fail)
-**Severity:** (Minor)
-**V or V:** (Validation)
+Expected result: System needs a minimum of 8 characters for password and username to be accepted
+Actual result: The system allows a minimum of 4 characters for a password and username to be accepted 
+Status: (Fail)
+Severity: (Minor)
+V or V: (Validation)
 
 ---
 
