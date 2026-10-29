@@ -73,23 +73,23 @@ HOW TO USE THIS FILE
 **Severity:** Minor
 **V or V:** Verification
 
-**Test ID:**
-**Written by:**
-**Title:**
-**Traces to:**
-**Test type:**
-**Preconditions:**
-**Test data:**
+**Test ID:** DY13
+**Written by:** Darrin Yun
+**Title:** MultipleCostumeCanBeSubmitted
+**Traces to:** Function SubmitCostume in app.js
+**Test type:** Acceptance
+**Preconditions:** Logged in and have 1 costume submitted
+**Test data:** Submitted second costume named "lejfh" after "abc"
 
 **Steps:**
-1.
-2.
-3.
+1. Login
+2. Submit costume 1
+3. Submit costume 2
 
-**Expected result:**
-**Actual result:**
-**Status:**
-**Severity:**
-**V or V:**
+**Expected result:** "Costume already submitted"
+**Actual result:** "Costume submitted. Good luck!"
+**Status:** Fail
+**Severity:** Major
+**V or V:** Validation
 
 ---
