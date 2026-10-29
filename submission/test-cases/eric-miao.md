@@ -35,24 +35,23 @@ HOW TO USE THIS FILE
 
 ---
 
-**Test ID:**
-**Written by:**
-**Title:**
-**Traces to:**
-**Test type:** (Unit / Integration / System / Acceptance / Boundary Value / Negative / Security)
-**Preconditions:**
-**Test data:**
+**Test ID:** EM-2
+**Written by:** Eric
+**Title:** Secrets 
+**Traces to:** https://github.com/EricSDSU/bughunt-team-anything/blob/main/app/config.js
+**Test type:** Security
+**Preconditions:** Secrets should be hidden in .env or another gitignored file
+**Test data:** "sk_live_fr1ght_n1ght_8f3a9c2e7b1d4f6a0c5e" and other secure api keys
 
 **Steps:**
-1.
-2.
-3.
+1. Clone the repository
+2. rg . "API_KEY|ADMIN"
 
-**Expected result:**
-**Actual result:**
-**Status:** (Pass / Fail)
-**Severity:** (Critical / Major / Minor, Fail only)
-**V or V:** (Verification / Validation, Fail only)
+**Expected result:** Keys do not appear in terminal
+**Actual result:** 12:  API_KEY: "sk_live_fr1ght_n1ght_8f3a9c2e7b1d4f6a0c5e",
+**Status:** Fail
+**Severity:** Critical
+**V or V:** Verification
 
 ---
 
