@@ -75,24 +75,23 @@ HOW TO USE THIS FILE
 
 ---
 
-**Test ID:**
-**Written by:**
-**Title:**
-**Traces to:**
-**Test type:** (Unit / Integration / System / Acceptance / Boundary Value / Negative / Security)
-**Preconditions:**
-**Test data:**
+**Test ID:** EM-04
+**Written by:** Eric
+**Title:** Only the hash is stored, never the password itself
+**Traces to:** UML_Class.mc diagram: User passwordhash
+**Test type:** Security
+**Preconditions:** Create a user with a password
+**Test data:** Password
 
 **Steps:**
-1.
-2.
-3.
+1. Create a user
+2. Search in the database for the user's password
 
-**Expected result:**
-**Actual result:**
-**Status:** (Pass / Fail)
-**Severity:** (Critical / Major / Minor, Fail only)
-**V or V:** (Verification / Validation, Fail only)
+**Expected result:** The password does not show up only a hash
+**Actual result:** The plaintext password is available
+**Status:** Pass
+**Severity:** Major
+**V or V:** Verification
 
 ---
 
