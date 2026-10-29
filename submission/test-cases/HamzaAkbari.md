@@ -1,6 +1,6 @@
-# Test Cases: [Your First Name Last Initial]
+# Test Cases: [Hamza A.]
 
-**Team number:** [XX]
+**Team number:** [anything]
 
 <!--
 HOW TO USE THIS FILE
@@ -14,24 +14,24 @@ HOW TO USE THIS FILE
 
 ---
 
-**Test ID:**
-**Written by:**
-**Title:**
-**Traces to:**
-**Test type:** (Unit / Integration / System / Acceptance / Boundary Value / Negative / Security)
-**Preconditions:**
-**Test data:**
+Test ID: A-01
+Written by: Hamza Akbari
+Title: Character Requirements
+Traces to: REQ-01 — User registration with a unique username and a password of at least 8 characters
+Test type: (Negative)
+Preconditions: User is on registration page and the username is not already registered
+Test data: Username: TestUser (8 characters), Password: Test (4 characters), Expected minimum password length: 4 characters
 
 **Steps:**
-1.
-2.
-3.
+1. Navigate to the registration page
+2. Enter a unique username and a password containing only 4 characters.
+3. Submit the registration form and observe the system's response.
 
-**Expected result:**
-**Actual result:**
-**Status:** (Pass / Fail)
-**Severity:** (Critical / Major / Minor, Fail only)
-**V or V:** (Verification / Validation, Fail only)
+**Expected result:** System needs a minimum of 8 characters for password and username to be accepted
+**Actual result:** The system allows a minimum of 4 characters for a password and username to be accepted 
+**Status:** (Fail)
+**Severity:** (Minor)
+**V or V:** (Validation)
 
 ---
 
