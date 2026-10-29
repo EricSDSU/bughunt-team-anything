@@ -1,6 +1,6 @@
-# Test Cases: [Your First Name Last Initial]
+# Test Cases: Darrin Y
 
-**Team number:** [XX]
+**Team number:** Anything
 
 <!--
 HOW TO USE THIS FILE
@@ -14,26 +14,64 @@ HOW TO USE THIS FILE
 
 ---
 
-**Test ID:**
-**Written by:**
-**Title:**
-**Traces to:**
-**Test type:** (Unit / Integration / System / Acceptance / Boundary Value / Negative / Security)
-**Preconditions:**
-**Test data:**
+**Test ID:** DY-10
+**Written by:** Darrin Yun
+**Title:** VoteWithoutLogin
+**Traces to:** CastVote function in app.js 
+**Test type:** Security
+**Preconditions:** Unregistered
+**Test data:** Vote without logging in
 
 **Steps:**
-1.
-2.
-3.
+1. Stay logged out
+2. Go to vote page
+3. Click vote
 
-**Expected result:**
-**Actual result:**
-**Status:** (Pass / Fail)
-**Severity:** (Critical / Major / Minor, Fail only)
-**V or V:** (Verification / Validation, Fail only)
+**Expected result:** Not logged in error
+**Actual result:** Enters a vote 
+**Status:** Fail
+**Severity:** Major
+**V or V:** Verification
 
 ---
+
+**Test ID:** DY-11
+**Written by:** Darrin Yun
+**Title:** NegativeOneVotes
+**Traces to:** Function VotesRemaining in app.js the return has bad math
+**Test type:** Boundary 
+**Preconditions:** Used all votes
+**Test data:** Use all votes
+
+**Steps:**
+1. Go to vote
+2. Use all votes
+3.
+
+**Expected result:** 0 votes remaining
+**Actual result:** -1 votes
+**Status:** Fail 
+**Severity:** Minor
+**V or V:** Verification
+
+**Test ID:** DY12
+**Written by:** Darrin Yun
+**Title:** CostumeNameLengthBoundaryError
+**Traces to:** app.js lines 85 and 86
+**Test type:** Boundary
+**Preconditions:** Register and login
+**Test data:** 51 character costume name
+
+**Steps:**
+1. Register and login
+2. Submit costume
+3. Enter a costume of 51 chars
+
+**Expected result:** Costume name should be less than 50 error
+**Actual result:** Costume accepted
+**Status:** Fail
+**Severity:** Minor
+**V or V:** Verification
 
 **Test ID:**
 **Written by:**
