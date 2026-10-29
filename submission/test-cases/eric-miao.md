@@ -95,21 +95,20 @@ HOW TO USE THIS FILE
 
 ---
 
-**Test ID:**
-**Written by:**
-**Title:**
-**Traces to:**
-**Test type:** (Unit / Integration / System / Acceptance / Boundary Value / Negative / Security)
-**Preconditions:**
-**Test data:**
+**Test ID:** EM-05
+**Written by:** Eric
+**Title:** Double voting is not allowed
+**Traces to:** app.js:castVote()
+**Test type:** Acceptance
+**Preconditions:** Signed in user
+**Test data:** A user is signed in
 
 **Steps:**
-1.
-2.
-3.
+1. Vote for a costume
+2. Vote again
 
-**Expected result:**
-**Actual result:**
-**Status:** (Pass / Fail)
-**Severity:** (Critical / Major / Minor, Fail only)
-**V or V:** (Verification / Validation, Fail only)
+**Expected result:** The vote is rejected
+**Actual result:** The vote is accepted
+**Status:** Fail
+**Severity:** Major
+**V or V:** Validation
