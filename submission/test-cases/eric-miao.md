@@ -31,7 +31,7 @@ HOW TO USE THIS FILE
 **Actual result:** user b can delete the costume
 **Status:** fail
 **Severity:** Major
-**V or V:** Verification
+**V or V:** Validation
 
 ---
 
