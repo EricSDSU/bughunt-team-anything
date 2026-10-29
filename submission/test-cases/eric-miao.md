@@ -55,24 +55,23 @@ HOW TO USE THIS FILE
 
 ---
 
-**Test ID:**
-**Written by:**
-**Title:**
-**Traces to:**
+**Test ID:** EM-03
+**Written by:** Eric
+**Title:** The system uses postgresql
+**Traces to:** store.js
 **Test type:** (Unit / Integration / System / Acceptance / Boundary Value / Negative / Security)
-**Preconditions:**
-**Test data:**
+**Preconditions:** Set up the app
+**Test data:** N/A
 
 **Steps:**
-1.
-2.
-3.
+1. Clone the repo
+2. Look for postgresql
 
-**Expected result:**
-**Actual result:**
-**Status:** (Pass / Fail)
-**Severity:** (Critical / Major / Minor, Fail only)
-**V or V:** (Verification / Validation, Fail only)
+**Expected result:** The code uses postgresql
+**Actual result:** The code uses the browser userstore
+**Status:** Fail
+**Severity:** Minor
+**V or V:** Validation
 
 ---
 
